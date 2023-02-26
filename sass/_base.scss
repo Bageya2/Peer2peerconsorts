@@ -770,12 +770,25 @@ section {
     // * {border:1px solid red;}
     
     &__img {
-        background: url('../img/hotel-1.jpg');
+        // background: url('../img/hotel-1.jpg');
         background-size: cover;
         background-position: center;
         height: 70%;
         width: 100%;
         position: relative; 
+
+        &-1 {
+            background: url('../img/esau-1.png');
+        }
+        &-2 {
+            background: url('../img/henry.jpg');
+        }
+        &-3 {
+            background: url('../img/duncan-2.jpg');
+        }
+        &-4 {
+            background: url('../img/lawrence.jpg');
+        }
     }
 
     &__social {
