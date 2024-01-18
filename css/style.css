@@ -551,7 +551,9 @@ section {
     .member__img-2 {
       background: url("../img/henry.jpg"); }
     .member__img-3 {
-      background: url("../img/duncan-3.jpg"); }
+      background: url("../img/duncan-3.jpg"); 
+    background-repeat: no-repeat;
+  background-position: center;}
     .member__img-4 {
       background: url("../img/lawrence.jpg"); }
   .member__social {
